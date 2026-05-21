@@ -100,7 +100,6 @@ nav .right a span {
 .hero-section .text .links a:hover {
     color: var(--text-color);
     border: 2px solid var(--text-color);
-
 }
 
 .hero-section .headshot {
@@ -112,7 +111,6 @@ nav .right a span {
 .hero-section .headshot img {
     border-radius: 50%;
     width: 350px;
-
 }
 
 /* SECTION 2: SKILLS */
@@ -128,7 +126,8 @@ nav .right a span {
 
 .skills-section .text {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .skills-section .cells {
@@ -235,6 +234,7 @@ nav .right a span {
 .contact-section .group {
     display: flex;
     gap: 50px;
+    margin-top: 10px;
 }
 
 .contact-section .group .text {
@@ -405,5 +405,4 @@ nav .right a span {
     .thank-you-message {
         padding: 0 20px;
     }
-
 }
